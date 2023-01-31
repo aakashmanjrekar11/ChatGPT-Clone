@@ -16,17 +16,21 @@ ChatGPT Clone is my attempt at developing an ML-AI chatbot based on [OpenAI](htt
 
 ## Methods
 
-I have made use of the [`text-davinci-003`](https://beta.openai.com/docs/models/gpt-3) model, which is the most capable GPT-3 model. It can do any task the other models can do, often with higher quality, longer output and better instruction-following. Also supports [inserting](https://beta.openai.com/docs/guides/completion/inserting-text) completions within text.
-
-"We trained this model using Reinforcement Learning from Human Feedback (RLHF), using the same methods as [InstructGPT](https://openai.com/blog/instruction-following/), but with slight differences in the data collection setup. We trained an initial model using supervised fine-tuning: human AI trainers provided conversations in which they played both sides—the user and an AI assistant. We gave the trainers access to model-written suggestions to help them compose their responses. We mixed this new dialogue dataset with the InstructGPT dataset, which we transformed into a dialogue format. Using these reward models, we can fine-tune the model using [Proximal Policy Optimization](https://openai.com/blog/openai-baselines-ppo/). We performed several iterations of this process." --- [OpenAI Blog](https://openai.com/blog/chatgpt/)
+- I have made use of the [`text-davinci-003`](https://beta.openai.com/docs/models/gpt-3) model, which is the most capable GPT-3 model. It can do any task the other models can do, often with higher quality, longer output and better instruction-following. Also supports [inserting](https://beta.openai.com/docs/guides/completion/inserting-text) completions within text.
+- Tested and deployed the chat-bot with a lower sampling-temperature value so that it takes lesser risks and gives
+well-defined answers.
 
 ![](https://cdn.openai.com/chatgpt/draft-20221129c/ChatGPT_Diagram.svg)
 _Photo credits: [OpenAI Blog](https://openai.com/blog/chatgpt/)_
 
-## Usage
+## Contributions
 
-## Support
+This project is open to contributions, so if you want to submit any bug reports, suggestions, improvements then please open an issue and I'll get back to you. Thank you!
 
 ## Acknowledgment
 
 Huge thanks to [Adrian Hajdin - JS Mastery](https://github.com/adrianhajdin) for coming up with the idea and implementation. Make sure to check out his channel 🤝
+
+## License
+
+This project is licensed under the MIT License.
