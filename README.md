@@ -1,5 +1,5 @@
 # ChatGPT Clone
-### 🚀 [Live Demo](https://chatgpt-clone-aakash.vercel.app/)
+### 🚀 [Live Demo](https://chatgpt-clone-aakash.vercel.app/) - Edit (30/3/2023) : Although the website is up and running, my app has exhausted the OpenAI API free trial credits and thus will return error.
 ChatGPT Clone is my attempt at developing an ML-AI chatbot based on [OpenAI](https://openai.com/)'s [ChatGPT](https://chat.openai.com/chat) model which interacts in a conversational way.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg) ](https://opensource.org/licenses/MIT) [![Website shields.io](https://img.shields.io/website-Up-Down-green-red/http/shields.io.svg)](https://chatgpt-clone-aakash.vercel.app/)
